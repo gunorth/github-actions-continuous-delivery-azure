@@ -9,6 +9,8 @@ env:
   AZURE_RESOURCE_GROUP: cd-with-actions
   AZURE_APP_PLAN: actions-ttt-deployment
   AZURE_LOCATION: '"West Europe"'
+  DOCKER_IMAGE_NAME: gunorth-azure-ttt
+  IMAGE_REGISTRY_URL: docker.pkg.github.com
   #################################################
   ### USER PROVIDED VALUES ARE REQUIRED BELOW   ###
   #################################################
